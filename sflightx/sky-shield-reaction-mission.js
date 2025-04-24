@@ -190,7 +190,7 @@ const articleContent = [
                         type: "md-list-item",
                         children: [
                             { type: "div", slot: "headline", content: "VEHICLE START-UP" },
-                            { type: "p", slot: "trailing-supporting-text", content: "T-1:00" }
+                            { type: "div", slot: "trailing-supporting-text", content: "T-1:00" }
                         ]
                     },
                     {
