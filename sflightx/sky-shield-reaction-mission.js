@@ -246,3 +246,5 @@ const articleContent = [
         ]
     }
 ];
+
+export default articleContent;
