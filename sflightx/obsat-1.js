@@ -13,8 +13,13 @@ const articleContent = [
         }
     },
     {
-        type: "p",
-        class: "md-typescale-body-large",
+        type: "div",
+        class: "container",
+        id: "full",
+        children: [
+            {
+        type: "h4",
+        class: "md-typescale-headline-large",
         content: "<b>Maya Heavy</b> is set to launch the ObSat-1 Mission for <b>@ZastenX</b>'s Planet Observation Satellite on June 11, 19:00 UTC, at Launch Complex 1A, Bataan Space Center, Philippines which will carry the Planet Observation Satellite to Low Moon Orbit."
     },
     {
@@ -36,6 +41,8 @@ const articleContent = [
         type: "p",
         class: "md-typescale-body-large",
         content: "This mission, counts as sFlightX's 11th launch attempt and our 10th orbital launch of 2024."
+    }
+        ]
     }
 ];
 

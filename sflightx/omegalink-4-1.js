@@ -5,8 +5,8 @@ const articleContent = [
         id: "full",
         children: [
             {
-                type: "p",
-                class: "md-typescale-body-large",
+                type: "h4",
+                class: "md-typescale-headline-large",
                 content: "<b>Maya Block 5</b> successfully lifted off on June 07, 11:30 UTC at Bataan Space Center. The payload for this mission was <b>@OmegaLink</b>'s 5 Omega Satellites to Low Earth Orbit."
             },
             {

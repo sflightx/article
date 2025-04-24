@@ -1,15 +1,15 @@
 const articleContent = [
     {
         type: "iframe",
-        class: "youtube-embed",
-        attributes: {
-            src: "https://www.youtube.com/embed/yz2UST01rhM?si=9iyMl1GrJOc8nnii",
-            title: "YouTube video player",
-            frameborder: "0",
-            allow: "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share",
-            referrerpolicy: "strict-origin-when-cross-origin",
-            allowfullscreen: "false",
-            style: "width: 100vw; aspect-ratio: 16/9;"
+        src: "https://www.youtube.com/embed/yz2UST01rhM?si=9iyMl1GrJOc8nnii",
+        title: "YouTube video player",
+        frameborder: "0",
+        allow: "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share",
+        referrerpolicy: "strict-origin-when-cross-origin",
+        allowfullscreen: "false",
+        style: {
+            width: "100%",
+            aspectRatio: "16/9",
         }
     },
     {
@@ -18,8 +18,8 @@ const articleContent = [
         id: "full",
         children: [
             {
-                type: "p",
-                class: "md-typescale-body-large",
+                type: "h4",
+                class: "md-typescale-headline-large",
                 content: "sFlightX and DAXT are currently targeting 8:00PM PhST (12:00 UTC) for the launch of Maya 4 Block 2.1 and Gripen (consecutively) into space. This mission carries 2 OmegaSat-mini v4 for Maya 4, a smaller version of our satellite. Gripen will launch 8 OmegaSat v4 to LEO."
             },
             {

@@ -3,7 +3,8 @@ const articleContent = [
         type: "blockquote",
         class: "twitter-tweet",
         attributes: {
-            "data-media-max-width": "560"
+            "data-media-max-width": "560",
+            "data-theme": "dark"
         },
         content: 'Last year, we successfully launched the first Droo Space Station mission (DSS-1) to Low Droo Orbit.<br><br>The booster supporting this mission was expended to meet the highest lift capabilities of the earlier version of the Unity Module. <a href="https://t.co/ijvTaCDBhO">pic.twitter.com/ijvTaCDBhO</a><br>&mdash; sFlightX JNO (@sFlightXJNO) <a href="https://twitter.com/sFlightXJNO/status/1874963849167905140?ref_src=twsrc%5Etfw">January 2, 2025</a>'
     },

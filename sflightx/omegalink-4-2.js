@@ -5,8 +5,8 @@ const articleContent = [
         id: "full",
         children: [
             {
-                type: "p",
-                class: "md-typescale-body-large",
+                type: "h4",
+                class: "md-typescale-headline-large",
                 content: "sFlightX launched 10 OmegaLink v6 Experimental Satellites aboard Maya Block 5 NET July 16, 2024 at 14:35 UTC. Version 6 Satellites carry working antennas to build a low latency communications on Low Earth Orbit."
             },
             {

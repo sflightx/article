@@ -1,15 +1,15 @@
 const articleContent = [
     {
         type: "iframe",
-        class: "youtube-embed",
-        attributes: {
-            src: "https://www.youtube.com/embed/rzppMeZ1vI0?si=UmEHw7Q1s0E467tD",
-            title: "YouTube video player",
-            frameborder: "0",
-            allow: "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share",
-            referrerpolicy: "strict-origin-when-cross-origin",
-            allowfullscreen: "false",
-            style: "width: 100vw; aspect-ratio: 16/9;"
+        src: "https://www.youtube.com/embed/rzppMeZ1vI0?si=UmEHw7Q1s0E467tD",
+        title: "YouTube video player",
+        frameborder: "0",
+        allow: "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share",
+        referrerpolicy: "strict-origin-when-cross-origin",
+        allowfullscreen: "false",
+        style: {
+            width: "100%",
+            aspectRatio: "16/9",
         }
     },
     {
@@ -18,8 +18,8 @@ const articleContent = [
         id: "full",
         children: [
             {
-                type: "p",
-                class: "md-typescale-body-large",
+                type: "h4",
+                class: "md-typescale-headline-large",
                 content: "Maya Block 3 launched the OmegaLink 3-2 Mission on May 12, 06:30 UTC at Launch Complex 1A, Bataan Space Center, Philippines which carried 5 OmegaSat v5 to LEO."
             },
             {
