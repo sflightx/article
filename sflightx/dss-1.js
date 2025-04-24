@@ -15,12 +15,12 @@ const articleContent = [
             {
                 type: "h4",
                 class: "md-typescale-headline-large",
-                content: "Maya Block 4 launched the AlphaLink Mission on June 25, 08:00 UTC at Launch Complex 1A, Bataan Space Center, Philippines which carried Arenz Space's AlphaLink Satellites to LEO."
+                content: "Maya Block 5 launched the DSS-1 Mission on July 04, 13:00 UTC at Launch Complex 1A, Bataan Space Center, Philippines which carried the first segment of Droo Space Station (DSS-1) to LEO."
             },
             {
                 type: "p",
                 class: "md-typescale-body-large",
-                content: "This mission, counts as sFlightX's 12th launch attempt and our 11th orbital launch of 2024."
+                content: "This mission, counts as sFlightX's 13th launch attempt and our 12th orbital launch of 2024."
             }
         ]
     }
