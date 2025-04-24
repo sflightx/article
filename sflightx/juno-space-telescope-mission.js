@@ -2,7 +2,10 @@ const articleContent = [
     {
         type: "blockquote",
         class: "twitter-tweet",
-        data_media_max_width: "560",
+        attributes: {
+            "data-media-max-width": "560",
+            "data-theme": "dark"
+        },
         children: [
             {
                 type: "p",
@@ -31,7 +34,8 @@ const articleContent = [
         type: "blockquote",
         class: "twitter-tweet",
         attributes: {
-            "data-media-max-width": "560"
+            "data-media-max-width": "560",
+            "data-theme": "dark"
         },
         children: [
             {

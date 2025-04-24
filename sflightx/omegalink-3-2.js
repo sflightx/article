@@ -13,29 +13,36 @@ const articleContent = [
         }
     },
     {
-        type: "p",
-        class: "md-typescale-body-large",
-        content: "Maya Block 3 launched the OmegaLink 3-2 Mission on May 12, 06:30 UTC at Launch Complex 1A, Bataan Space Center, Philippines which carried 5 OmegaSat v5 to LEO."
-    },
-    {
-        type: "p",
-        class: "md-typescale-body-large",
-        content: "OmegaSat v5 is the new compact sized satellite for OmegaLink, a less weight, size and a modern version."
-    },
-    {
-        type: "p",
-        class: "md-typescale-body-large",
-        content: "The first stage vehicle was expended for this mission."
-    },
-    {
-        type: "p",
-        class: "md-typescale-body-large",
-        content: "This mission flew the last Block 3 of Maya, as we developed the Maya Block 5 vehicle."
-    },
-    {
-        type: "p",
-        class: "md-typescale-body-large",
-        content: "This mission, counts as sFlightX's 9th launch attempt and our 8th orbital launch of 2024."
+        type: "div",
+        class: "container",
+        id: "full",
+        children: [
+            {
+                type: "p",
+                class: "md-typescale-body-large",
+                content: "Maya Block 3 launched the OmegaLink 3-2 Mission on May 12, 06:30 UTC at Launch Complex 1A, Bataan Space Center, Philippines which carried 5 OmegaSat v5 to LEO."
+            },
+            {
+                type: "p",
+                class: "md-typescale-body-large",
+                content: "OmegaSat v5 is the new compact sized satellite for OmegaLink, a less weight, size and a modern version."
+            },
+            {
+                type: "p",
+                class: "md-typescale-body-large",
+                content: "The first stage vehicle was expended for this mission."
+            },
+            {
+                type: "p",
+                class: "md-typescale-body-large",
+                content: "This mission flew the last Block 3 of Maya, as we developed the Maya Block 5 vehicle."
+            },
+            {
+                type: "p",
+                class: "md-typescale-body-large",
+                content: "This mission, counts as sFlightX's 9th launch attempt and our 8th orbital launch of 2024."
+            }
+        ]
     }
 ];
 
