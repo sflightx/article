@@ -8,9 +8,8 @@ const articleContent = [
         referrerpolicy: "strict-origin-when-cross-origin",
         allowfullscreen: "false",
         style: {
-          width: "100vw",
+          width: "100%",
           aspectRatio: "16/9",
-          borderRadius: "24px",
         }
       },
       {
