@@ -2,10 +2,13 @@ const articleContent = [
     {
         type: "blockquote",
         class: "twitter-tweet",
-        attributes: {
-            "data-media-max-width": "560"
-        },
-        content: 'Targeting Dec. 22 for <a href="https://twitter.com/AlphaX_Space?ref_src=twsrc%5Etfw">@AlphaX_Space</a> Juno Space Telescope Mission to Geostationary Earth Orbit from Terra Aurora. Window opens at 8pm PhST (12:00 UTC) → <a href="https://t.co/HpEYhn4G2U">https://t.co/HpEYhn4G2U</a> <a href="https://t.co/xu52as51gX">pic.twitter.com/xu52as51gX</a><br>&mdash; sFlightX JNO (@sFlightXJNO) <a href="https://twitter.com/sFlightXJNO/status/1870737062028099899?ref_src=twsrc%5Etfw">December 22, 2024</a>'
+        data_media_max_width: "560",
+        children: [
+            {
+                type: "p",
+                innerHTML: 'Targeting January 22 for <a href="https://twitter.com/AlphaX_Space?ref_src=twsrc%5Etfw">@AlphaX_Space</a>&#39;s Sky Shield Reaction Mission in Terra Aurora, Droo. The mission will debut major upgrades including aerodynamic upgrades → <a href="https://t.co/HpEYhn4G2U">https://t.co/HpEYhn4G2U</a> <a href="https://t.co/PiibOdUgXw">pic.twitter.com/PiibOdUgXw</a><br>&mdash; sFlightX JNO (@sFlightXJNO) <a href="https://twitter.com/sFlightXJNO/status/1877278438962147455?ref_src=twsrc%5Etfw">January 9, 2025</a>'
+            }
+        ]
     },
     {
         type: "div",
@@ -30,8 +33,14 @@ const articleContent = [
         attributes: {
             "data-media-max-width": "560"
         },
-        content: 'Maya v5 is coasting for the last time, payload sep on T+1h 57m. Congratulations to <a href="https://twitter.com/AlphaX_Space?ref_src=twsrc%5Etfw">@AlphaX_Space</a> for the successful mission! <a href="https://t.co/hUZpg7lsIZ">pic.twitter.com/hUZpg7lsIZ</a><br>&mdash; sFlightX JNO (@sFlightXJNO) <a href="https://twitter.com/sFlightXJNO/status/1870806514363199585?ref_src=twsrc%5Etfw">December 22, 2024</a>'
+        children: [
+            {
+                type: "p",
+                innerHTML: 'Maya v5 is coasting for the last time, payload sep on T+1h 57m. Congratulations to <a href="https://twitter.com/AlphaX_Space?ref_src=twsrc%5Etfw">@AlphaX_Space</a> for the successful mission! <a href="https://t.co/hUZpg7lsIZ">pic.twitter.com/hUZpg7lsIZ</a><br>&mdash; sFlightX JNO (@sFlightXJNO) <a href="https://twitter.com/sFlightXJNO/status/1870806514363199585?ref_src=twsrc%5Etfw">December 22, 2024</a>'
+            }
+        ]
     }
+    
 ];
 
 export default articleContent;
