@@ -100,97 +100,97 @@ const articleContent = [
                 content: "All times are approximate."
             },
             {
-                type: "table",
-                content: [
+                type: "md-list",
+                children: [
                     {
-                        type: "tr",
+                        type: "md-list-item",
                         children: [
-                            { type: "td", content: "T-30:00" },
-                            { type: "td", content: "LD VERIFIES GO FOR PROP LOAD" }
+                            { type: "div", slot: "headline", content: "LD VERIFIES GO FOR PROP LOAD" },
+                            { type: "div", slot: "trailing-supporting-text", content: "T-30:00" }
                         ]
                     },
                     {
-                        type: "tr",
+                        type: "md-list-item",
                         children: [
-                            { type: "td", content: "T-29:45" },
-                            { type: "td", content: "STAGE 1 LOX LOAD UNDERWAY" }
+                            { type: "div", slot: "headline", content: "STAGE 1 LOX LOAD UNDERWAY" },
+                            { type: "div", slot: "trailing-supporting-text", content: "T-29:45" }
                         ]
                     },
                     {
-                        type: "tr",
+                        type: "md-list-item",
                         children: [
-                            { type: "td", content: "T-26:50" },
-                            { type: "td", content: "STAGE 1 CH2 LOAD UNDERWAY" }
+                            { type: "div", slot: "headline", content: "STAGE 1 CH2 LOAD UNDERWAY" },
+                            { type: "div", slot: "trailing-supporting-text", content: "T-26:50" }
                         ]
                     },
                     {
-                        type: "tr",
+                        type: "md-list-item",
                         children: [
-                            { type: "td", content: "T-15:30" },
-                            { type: "td", content: "STAGE 2 CH2 LOAD UNDERWAY" }
+                            { type: "div", slot: "headline", content: "STAGE 2 CH2 LOAD UNDERWAY" },
+                            { type: "div", slot: "trailing-supporting-text", content: "T-15:30" }
                         ]
                     },
                     {
-                        type: "tr",
+                        type: "md-list-item",
                         children: [
-                            { type: "td", content: "T-13:30" },
-                            { type: "td", content: "STAGE 2 LOX LOAD UNDERWAY" }
+                            { type: "div", slot: "headline", content: "STAGE 2 LOX LOAD UNDERWAY" },
+                            { type: "div", slot: "trailing-supporting-text", content: "T-13:30" }
                         ]
                     },
                     {
-                        type: "tr",
+                        type: "md-list-item",
                         children: [
-                            { type: "td", content: "T-8:00" },
-                            { type: "td", content: "FTS IS ARMED" }
+                            { type: "div", slot: "headline", content: "FTS IS ARMED" },
+                            { type: "div", slot: "trailing-supporting-text", content: "T-8:00" }
                         ]
                     },
                     {
-                        type: "tr",
+                        type: "md-list-item",
                         children: [
-                            { type: "td", content: "T-5:35" },
-                            { type: "td", content: "AGILA ENGINE CHILL" }
+                            { type: "div", slot: "headline", content: "AGILA ENGINE CHILL" },
+                            { type: "div", slot: "trailing-supporting-text", content: "T-5:35" }
                         ]
                     },
                     {
-                        type: "tr",
+                        type: "md-list-item",
                         children: [
-                            { type: "td", content: "T-4:30" },
-                            { type: "td", content: "STAGE 1 PROPELLANT LOAD IS COMPLETE" }
+                            { type: "div", slot: "headline", content: "STAGE 1 PROPELLANT LOAD IS COMPLETE" },
+                            { type: "div", slot: "trailing-supporting-text", content: "T-4:30" }
                         ]
                     },
                     {
-                        type: "tr",
+                        type: "md-list-item",
                         children: [
-                            { type: "td", content: "T-2:55" },
-                            { type: "td", content: "STAGE 2 PROPELLANT LOAD IS COMPLETE" }
+                            { type: "div", slot: "headline", content: "STAGE 2 PROPELLANT LOAD IS COMPLETE" },
+                            { type: "div", slot: "trailing-supporting-text", content: "T-2:55" }
                         ]
                     },
                     {
-                        type: "tr",
+                        type: "md-list-item",
                         children: [
-                            { type: "td", content: "T-1:00" },
-                            { type: "td", content: "VEHICLE START-UP" }
+                            { type: "div", slot: "headline", content: "VEHICLE START-UP" },
+                            { type: "div", slot: "trailing-supporting-text", content: "T-1:00" }
                         ]
                     },
                     {
-                        type: "tr",
+                        type: "md-list-item",
                         children: [
-                            { type: "td", content: "T-0:25" },
-                            { type: "td", content: "LD VERIFIES GO FOR LAUNCH!" }
+                            { type: "div", slot: "headline", content: "LD VERIFIES GO FOR LAUNCH!" },
+                            { type: "div", slot: "trailing-supporting-text", content: "T-0:25" }
                         ]
                     },
                     {
-                        type: "tr",
+                        type: "md-list-item",
                         children: [
-                            { type: "td", content: "T-0:01" },
-                            { type: "td", content: "ENGINE IGNITION SEQUENCE START" }
+                            { type: "div", slot: "headline", content: "ENGINE IGNITION SEQUENCE START" },
+                            { type: "div", slot: "trailing-supporting-text", content: "T-0:01" }
                         ]
                     },
                     {
-                        type: "tr",
+                        type: "md-list-item",
                         children: [
-                            { type: "td", content: "T+0:03" },
-                            { type: "td", content: "LIFTOFF!" }
+                            { type: "div", slot: "headline", content: "LIFTOFF!" },
+                            { type: "div", slot: "trailing-supporting-text", content: "T+0:03" }
                         ]
                     }
                 ]
@@ -204,45 +204,46 @@ const articleContent = [
                 content: "All times not yet approximate."
             },
             {
-                type: "table",
-                content: [
+                type: "md-list",
+                children: [
                     {
-                        type: "tr",
+                        type: "md-list-item",
                         children: [
-                            { type: "td", content: "T+0:03" },
-                            { type: "td", content: "LIFTOFF" }
+                            { type: "div", slot: "headline", content: "LIFTOFF" },
+                            { type: "div", slot: "trailing-supporting-text", content: "T+0:03" }
                         ]
                     },
                     {
-                        type: "tr",
+                        type: "md-list-item",
                         children: [
-                            { type: "td", content: "T+1:18" },
-                            { type: "td", content: "MAX-Q" }
+                            { type: "div", slot: "headline", content: "MAX-Q" },
+                            { type: "div", slot: "trailing-supporting-text", content: "T+1:18" }
                         ]
                     },
                     {
-                        type: "tr",
+                        type: "md-list-item",
                         children: [
-                            { type: "td", content: "T+2:53" },
-                            { type: "td", content: "MAIN ENGINE CUTOFF 1 (MECO-1)" }
+                            { type: "div", slot: "headline", content: "MAIN ENGINE CUTOFF 1 (MECO-1)" },
+                            { type: "div", slot: "trailing-supporting-text", content: "T+2:53" }
                         ]
                     },
                     {
-                        type: "tr",
+                        type: "md-list-item",
                         children: [
-                            { type: "td", content: "T+2:57" },
-                            { type: "td", content: "MAIN STAGE SEPARATION" }
+                            { type: "div", slot: "headline", content: "MAIN STAGE SEPARATION" },
+                            { type: "div", slot: "trailing-supporting-text", content: "T+2:57" }
                         ]
                     },
                     {
-                        type: "tr",
+                        type: "md-list-item",
                         children: [
-                            { type: "td", content: "T+3:14" },
-                            { type: "td", content: "STAGE 2 IGNITION" }
+                            { type: "div", slot: "headline", content: "STAGE 2 IGNITION" },
+                            { type: "div", slot: "trailing-supporting-text", content: "T+3:14" }
                         ]
                     }
                 ]
             }
+
         ]
     }
 ];
