@@ -93,7 +93,6 @@ const articleContent = [
             {
                 type: "p",
                 class: "md-typescale-body-large",
-                class: "md-typescale-body-large",
                 content: "Then, the aft section comprises 2 static aerodynamic surfaces that help to generate more lift during the gliding phase of the flight. Maya blocks 2 and 3 lost control due to limited aerodynamic surface leading to hypersonic backflips during ascent and descent."
             },
             {
@@ -105,7 +104,7 @@ const articleContent = [
                 type: "blockquote",
                 class: "twitter-tweet",
                 attributes: {
-                    "data-media-max-width": "560",
+                    "data-media-max-width": "480",
                     "data-theme": "dark"
                 },
                 content: 'Sky Shield Reaction is our Alphalink satellite shield for security and upgrades in satellite systems. <a href="https://t.co/OPGsik0T4K">https://t.co/OPGsik0T4K</a><br>&mdash; Alphalink (@AlphalinkSat) <a href="https://twitter.com/AlphalinkSat/status/1876626038618538197?ref_src=twsrc%5Etfw">January 7, 2025</a>'
