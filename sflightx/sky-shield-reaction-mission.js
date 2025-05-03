@@ -104,9 +104,9 @@ const articleContent = [
             {
                 type: "blockquote",
                 class: "twitter-tweet",
-                data: {
-                    "dnt": "true",
-                    "theme": "dark"
+                attributes: {
+                    "data-media-max-width": "560",
+                    "data-theme": "dark"
                 },
                 content: 'Sky Shield Reaction is our Alphalink satellite shield for security and upgrades in satellite systems. <a href="https://t.co/OPGsik0T4K">https://t.co/OPGsik0T4K</a><br>&mdash; Alphalink (@AlphalinkSat) <a href="https://twitter.com/AlphalinkSat/status/1876626038618538197?ref_src=twsrc%5Etfw">January 7, 2025</a>'
             },
