@@ -1,5 +1,18 @@
 const articleContent = [
     {
+        type: "iframe",
+        src: "https://www.youtube.com/embed/e1kq13J_5nQ?si=EkVBWZq8LJ9V1k4D",
+        title: "YouTube video player",
+        frameborder: "0",
+        allow: "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share",
+        referrerpolicy: "strict-origin-when-cross-origin",
+        allowfullscreen: "false",
+        style: {
+            width: "100%",
+            aspectRatio: "16/9",
+        }
+    },
+    {
         type: "div",
         class: "container",
         indent: "all",
