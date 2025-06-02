@@ -11,7 +11,7 @@ const articleContent = [
     {
         type: "div",
         class: "container",
-        id: "full",
+        indent: "all",
         children: [
             {
                 type: "h4",
