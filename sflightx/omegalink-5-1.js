@@ -31,7 +31,7 @@ const articleContent = [
                 type: "br"
             },
             {
-                type: "h2",
+                type: "h5",
                 class: "md-typescale-display-medium",
                 content: "MISSION COUNTDOWN"
             },
@@ -137,7 +137,7 @@ const articleContent = [
                 ]
             },
             {
-                type: "h2",
+                type: "h5",
                 class: "md-typescale-display-medium",
                 content: "FLIGHT EVENTS"
             },
