@@ -15,6 +15,7 @@ const articleContent = [
     {
         type: "div",
         class: "container",
+        indent: "all",
         id: "full",
         children: [
             {
