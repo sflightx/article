@@ -30,7 +30,7 @@ const articleContent = [
             {
                 type: "p",
                 class: "md-typescale-body-large",
-                content: "The new Maya RTF (Rapid Turnaround Flight) vehicle features upgraded Agila engines, improved thermal protection system, and enhanced avionics suite. These upgrades are designed to facilitate quicker turnaround times between flights, aiming to reduce refurbishment time and costs."
+                content: "The new Maya RTF (Return to Flight) vehicle features upgraded Agila engines, improved thermal protection system, and enhanced avionics suite. These upgrades are designed to facilitate quicker turnaround times between flights, aiming to reduce refurbishment time and costs."
             },
             {
                 type: "p",
@@ -50,7 +50,7 @@ const articleContent = [
             {
                 type: "p",
                 class: "md-typescale-body-large",
-                content: "At main engine cutoff (MECO-1), the first stage will separate and begin its descent back to Terra Aurora. The booster will perform what we call flip separation wherein the second stage will separate in a flipping manner.The booster will continue the boostback maneuver to the launch site."
+                content: "At main engine cutoff (MECO-1), the first stage will separate and begin its descent back to Terra Aurora. The booster will perform what we call flip separation wherein the second stage will separate in a flipping manner. The booster will continue the boostback maneuver to the launch site."
             },
             {
                 type: "p",
@@ -244,7 +244,7 @@ const articleContent = [
             {
                 type: "p",
                 class: "md-typescale-body-large",
-                content: "This launch is sFlightX’s 17th launch attempt and 2nd orbital launch of 2025."
+                content: "This launch is sFlightX’s 18th launch attempt and 1st orbital launch of 2026."
             }
         ]
     }
